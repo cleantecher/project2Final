@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Rewiew</title>
+</head>
+<body>
+    <div>
+        <h1><%= wine.name%></h1>
+        <form action="/<%=wine._id%>/inputWineReview" method="POST">
+            <label for="rName">Leave a card</label>
+            <input type="text" name="rName" placeholder="your alias">
+            <label for="mString">Whats your call</label>
+            <input type="text" name="mString" placeholder="dont be kind">
+            <br>
+            <br>
+            <button>Scandalize</button>
+        </form>
+    </div>
+
+</body>
+</html>

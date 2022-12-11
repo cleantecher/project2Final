@@ -1,0 +1,44 @@
+body{
+    background-color:Maroon;
+    font: bold;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+h1,p,a{
+    color: black;
+    text-align: center;
+}
+
+li, label{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    list-style: none;
+}
+
+div{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+
+button{
+    background-color: black;
+    color: white;
+}
+
+.change{
+    color: white;
+}
